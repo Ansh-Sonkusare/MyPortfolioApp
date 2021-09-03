@@ -12,7 +12,7 @@ $(document).ready(function () {
         jsonObj.push(item);
         e.preventDefault();
         console.log(name, email, msg);
-        fetch('http://localhost:3000/form', {
+        fetch('https://anshodes.herokuapp.com/form', {
             method: 'POST', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
