@@ -13,7 +13,7 @@ $(document).ready(function () {
         e.preventDefault();
         console.log(name, email, msg);
         fetch('https://anshodes.herokuapp.com/form', { 
-            method: 'POST', // or 'PUT'
+            method: 'GET', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
             },
